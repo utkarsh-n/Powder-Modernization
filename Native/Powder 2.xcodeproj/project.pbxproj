@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03490139B0A2B8675EDBCEE7 /* MaterialAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E473084AF4FD13496B1672F /* MaterialAppearance.swift */; };
+		06D2217E73CE108C71DB5663 /* MaterialAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E473084AF4FD13496B1672F /* MaterialAppearance.swift */; };
+		0C86E0F1C7902E54A0BC374A /* ContextPanels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BE18F63D2C6A5CC1451BA3 /* ContextPanels.swift */; };
+		14A370CC008EDB6EA211883B /* Specimen-ice.png in Resources */ = {isa = PBXBuildFile; fileRef = 46B7E20D4BF266C16D393E45 /* Specimen-ice.png */; };
+		1572440F7F00C69CFFC28D36 /* Specimen-water.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C50316453B8CB73D9FB159 /* Specimen-water.png */; };
+		16235AC70C42C45D13F73F01 /* Specimen-lava.png in Resources */ = {isa = PBXBuildFile; fileRef = C377C97A97129F7E01CF38ED /* Specimen-lava.png */; };
+		1756460E4027F457E2FE799E /* MaterialPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E806C8C333BFBB3CECCBF22 /* MaterialPalette.swift */; };
+		190A2776A9EA7B951E9110EA /* Specimen-energy.png in Resources */ = {isa = PBXBuildFile; fileRef = 0570E2E6DC3FD2F623E37027 /* Specimen-energy.png */; };
+		196F6C8A4E1B7A61D8AD1273 /* PowderCore in Frameworks */ = {isa = PBXBuildFile; productRef = D485B0887BE7AB5C2AA7C8FE /* PowderCore */; };
+		1A21EF5F3C50D73EC24DA690 /* SimulationCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA803500C30708688EF0FE0 /* SimulationCanvas.swift */; };
+		1D86A524546BB64D34D3B0F8 /* MaterialPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E418CCC72749BD0053F1567 /* MaterialPresentation.swift */; };
+		1E855E7BCBE7276465A39ADC /* StudioScenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C680B9D101092BC337594EA /* StudioScenes.swift */; };
+		2004D6D57A80FDF9CBC8B2F3 /* PlaygroundSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDAC664332530AFA32564D /* PlaygroundSession.swift */; };
+		21ECFEE7D99555543488E783 /* MetalSimulationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264C8474E297779CB32EF763 /* MetalSimulationView.swift */; };
+		282B79F7A3FBCACC13140930 /* PowderEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 21B8CB4391CAC7B99B694407 /* PowderEngine */; };
+		2EBAB33738807CCB085846E7 /* Specimen-steam.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB143F2ED903769A49A4450 /* Specimen-steam.png */; };
+		2EEE9C0A2BCC40A9DD3D4A7C /* Specimen-lava.png in Resources */ = {isa = PBXBuildFile; fileRef = C377C97A97129F7E01CF38ED /* Specimen-lava.png */; };
+		2FC2417B2DC9599E7E67222A /* AppleScenePlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0C5FD2B69B16B929B9713 /* AppleScenePlanner.swift */; };
+		330D7FB4C9D65CEC86331272 /* SimulationCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA803500C30708688EF0FE0 /* SimulationCanvas.swift */; };
+		3543BEA69F38324512E0C0C4 /* Specimen-organic.png in Resources */ = {isa = PBXBuildFile; fileRef = E35E47A9AF46F11EDAA07CAF /* Specimen-organic.png */; };
+		36B8DB50210D4AB912355F05 /* PowderIntelligence in Frameworks */ = {isa = PBXBuildFile; productRef = 680CC92BBAA4F714671D112B /* PowderIntelligence */; };
+		3D774DA71B386FB5F517522D /* MetalSimulationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264C8474E297779CB32EF763 /* MetalSimulationView.swift */; };
+		3F837FFE69D2596D9C57F6F5 /* AppleSceneLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F8F51DBD2AE3B2446D0A81 /* AppleSceneLayout.swift */; };
+		44FCA16EBE625D05A9B56390 /* PowderTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB730A2543A81D5722BF4385 /* PowderTheme.swift */; };
+		45F3A1617AEF77155D2825E5 /* Specimen-oil.png in Resources */ = {isa = PBXBuildFile; fileRef = 30D74E4992374768DC1D0D67 /* Specimen-oil.png */; };
+		4876C6C4BF3A6D93D46F00B1 /* PowderTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB730A2543A81D5722BF4385 /* PowderTheme.swift */; };
+		48BF2BD590A01723F3EDC8DE /* PowderCore in Frameworks */ = {isa = PBXBuildFile; productRef = B9145293A828437BCA9C8D11 /* PowderCore */; };
+		49A468BB725A92103EB27A48 /* ParticleShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = CA2A62F590E27824D648BF94 /* ParticleShaders.metal */; };
+		5265EF20FA91C96868B20EEF /* Specimen-water.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C50316453B8CB73D9FB159 /* Specimen-water.png */; };
+		53B11B9B3CD7D41754880797 /* MetalFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673A009DDDC1237B4B0EF89 /* MetalFrame.swift */; };
+		55EE7E7F1B1F287869A552C8 /* Specimen-powder.png in Resources */ = {isa = PBXBuildFile; fileRef = 298F3F9CEB7AF8D764054634 /* Specimen-powder.png */; };
+		575B32909F20E2F2C2497D6C /* Specimen-generic.png in Resources */ = {isa = PBXBuildFile; fileRef = 9288C00AD6F2B171A8FDD21B /* Specimen-generic.png */; };
+		5BC3D5E0CA1D6F6DE3C33F36 /* WorkspaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BE950FECB68B5BA2BCC67 /* WorkspaceView.swift */; };
+		5CCF8B0FC0600D6EA49A20C9 /* Specimen-ice.png in Resources */ = {isa = PBXBuildFile; fileRef = 46B7E20D4BF266C16D393E45 /* Specimen-ice.png */; };
+		5F56098972FAB47A202B5C85 /* SceneIntelligence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAD68B94478240864E7D3B8 /* SceneIntelligence.swift */; };
+		61CCEE50664C86E1EB64D118 /* ParticleShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = CA2A62F590E27824D648BF94 /* ParticleShaders.metal */; };
+		6563E5E26B7E1C0B0504673D /* Specimen-energy.png in Resources */ = {isa = PBXBuildFile; fileRef = 0570E2E6DC3FD2F623E37027 /* Specimen-energy.png */; };
+		66C15C25EE217B2F4D91E383 /* ScenePromptBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E811DB8689B6AC1E7594CA /* ScenePromptBar.swift */; };
+		6737871864172853C05205F8 /* Specimen-gas.png in Resources */ = {isa = PBXBuildFile; fileRef = 2454351FDE22DACA315D1B5D /* Specimen-gas.png */; };
+		68399877EDC05469E8545103 /* PowderEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 589524B657F5E202A1F6AF2F /* PowderEngine */; };
+		6D767601C98221940B5A8B96 /* PlaygroundSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFDAC664332530AFA32564D /* PlaygroundSession.swift */; };
+		73671060BCB7C57392EF2191 /* Specimen-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BF0C5606938709ED1F84397 /* Specimen-glass.png */; };
+		737AAB271A2B57F155554DF7 /* Specimen-stone.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C29F967BD8D8E37B1615C /* Specimen-stone.png */; };
+		741840E00750B8FFFDB20F49 /* Specimen-flame.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A88EFD64085D7151F1643A1 /* Specimen-flame.png */; };
+		78D15AD49BCA5398408C7F1C /* StudioScenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C680B9D101092BC337594EA /* StudioScenes.swift */; };
+		7976BAEAD8BE1D05A6BB7FE6 /* AppleSceneLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F8F51DBD2AE3B2446D0A81 /* AppleSceneLayout.swift */; };
+		7A4F82D99ACE55A2FBC39B9A /* ScenePromptBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E811DB8689B6AC1E7594CA /* ScenePromptBar.swift */; };
+		7B90181E2281BBBF2A4522C6 /* Specimen-powder.png in Resources */ = {isa = PBXBuildFile; fileRef = 298F3F9CEB7AF8D764054634 /* Specimen-powder.png */; };
+		7EB3CE97B1AEA3926B9CBB52 /* PowderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F2A65A0C876879F09F6D84 /* PowderApp.swift */; };
+		7F4BB227814E6A7FA2A943AF /* MaterialSwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB746DBA400FC8FA7725EBF /* MaterialSwatch.swift */; };
+		82729A117B8F03C68B618E9D /* Specimen-glass.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BF0C5606938709ED1F84397 /* Specimen-glass.png */; };
+		850C3B59636B28BB079385D4 /* AppleScenePlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD0C5FD2B69B16B929B9713 /* AppleScenePlanner.swift */; };
+		854295398B86FDBA10BF580F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 80286CD3EBC9402914EDB0B4 /* LICENSE */; };
+		8DE5C6932F0686A802534395 /* MaterialSwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB746DBA400FC8FA7725EBF /* MaterialSwatch.swift */; };
+		8FADA2BA9DB0F342605EDCCD /* Specimen-wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C8776CFD7F5BC03BC959DA8 /* Specimen-wood.png */; };
+		92866F7286E8AE3D50C474B9 /* Specimen-nuclear.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B931C2CB4E0047A56D94DD /* Specimen-nuclear.png */; };
+		968339A5E5A15FBE64A8925B /* ContextPanels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BE18F63D2C6A5CC1451BA3 /* ContextPanels.swift */; };
+		96F149A6E62794F6C27A411B /* Specimen-metal.png in Resources */ = {isa = PBXBuildFile; fileRef = A0FE56BED463271F943AD0C0 /* Specimen-metal.png */; };
+		9A2AB5FD75E65201332B0297 /* Specimen-flame.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A88EFD64085D7151F1643A1 /* Specimen-flame.png */; };
+		9ABB85843924E74DD3D25CC3 /* CloudCredentialStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48131CC22195B6B98E7459D /* CloudCredentialStore.swift */; };
+		9B2BD0AE783C121FE2B7CBDB /* Specimen-acid.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C829548875B92613B5EAB70 /* Specimen-acid.png */; };
+		A2382A29DC6B5B7D49246C67 /* CurrentBrushSwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAE89F0B43E4D861935317C /* CurrentBrushSwatch.swift */; };
+		A4B993BEFE29E4454C23F535 /* MetalParticlePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B08124BE740C9AB5E8E9393 /* MetalParticlePipeline.swift */; };
+		A6012C2E337361FCE859AB64 /* Specimen-metal.png in Resources */ = {isa = PBXBuildFile; fileRef = A0FE56BED463271F943AD0C0 /* Specimen-metal.png */; };
+		A688126F35700968D5D44E17 /* Specimen-stone.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2C29F967BD8D8E37B1615C /* Specimen-stone.png */; };
+		A7D683E6FC68AFF357F34B55 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 80286CD3EBC9402914EDB0B4 /* LICENSE */; };
+		B003C85F135B129A4964EF6A /* Specimen-steam.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FB143F2ED903769A49A4450 /* Specimen-steam.png */; };
+		B0E93CCFF60658E294935DC4 /* Specimen-organic.png in Resources */ = {isa = PBXBuildFile; fileRef = E35E47A9AF46F11EDAA07CAF /* Specimen-organic.png */; };
+		B33E94FF837892E422E9C76A /* MaterialPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E418CCC72749BD0053F1567 /* MaterialPresentation.swift */; };
+		B61FFC2C716464D1264422FE /* Specimen-nuclear.png in Resources */ = {isa = PBXBuildFile; fileRef = 92B931C2CB4E0047A56D94DD /* Specimen-nuclear.png */; };
+		B6746170D43D0A07A076091F /* Specimen-acid.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C829548875B92613B5EAB70 /* Specimen-acid.png */; };
+		BA81AE6878464DA0C7BD9221 /* MaterialPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E806C8C333BFBB3CECCBF22 /* MaterialPalette.swift */; };
+		C159E0E658F2376E6471AC16 /* WorkspaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BE950FECB68B5BA2BCC67 /* WorkspaceView.swift */; };
+		C5CEDC029070C258903B1293 /* THIRD_PARTY_NOTICES.md in Resources */ = {isa = PBXBuildFile; fileRef = FB168AE567EC0218738B1032 /* THIRD_PARTY_NOTICES.md */; };
+		C940B9EC3E67FD486361013A /* Specimen-gas.png in Resources */ = {isa = PBXBuildFile; fileRef = 2454351FDE22DACA315D1B5D /* Specimen-gas.png */; };
+		CADF03AA82FBCC34B0ED00F4 /* THIRD_PARTY_NOTICES.md in Resources */ = {isa = PBXBuildFile; fileRef = FB168AE567EC0218738B1032 /* THIRD_PARTY_NOTICES.md */; };
+		D685556F6B6E75A256377161 /* SceneIntelligence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAD68B94478240864E7D3B8 /* SceneIntelligence.swift */; };
+		E1DC272856CE8F7B81FBDEF5 /* CurrentBrushSwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAE89F0B43E4D861935317C /* CurrentBrushSwatch.swift */; };
+		E3F574245578837CE92E4728 /* CloudCredentialStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48131CC22195B6B98E7459D /* CloudCredentialStore.swift */; };
+		E4C1A4E1301E55E3A609AE1F /* PowderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F2A65A0C876879F09F6D84 /* PowderApp.swift */; };
+		E71C0CB9CF645B3E5EE2A37C /* Specimen-wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C8776CFD7F5BC03BC959DA8 /* Specimen-wood.png */; };
+		F060A578799F97C1994BA62F /* MetalFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673A009DDDC1237B4B0EF89 /* MetalFrame.swift */; };
+		F523A4F0458564863062AD4A /* PowderIntelligence in Frameworks */ = {isa = PBXBuildFile; productRef = 12EDD4D02567E7C9AC31488A /* PowderIntelligence */; };
+		F5BB64713407525E114CDC3C /* Specimen-generic.png in Resources */ = {isa = PBXBuildFile; fileRef = 9288C00AD6F2B171A8FDD21B /* Specimen-generic.png */; };
+		FAB4BDE49934F4B79E6CD21D /* Specimen-oil.png in Resources */ = {isa = PBXBuildFile; fileRef = 30D74E4992374768DC1D0D67 /* Specimen-oil.png */; };
+		FFF728D8EDCB7FF867893EEA /* MetalParticlePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B08124BE740C9AB5E8E9393 /* MetalParticlePipeline.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0570E2E6DC3FD2F623E37027 /* Specimen-energy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Specimen-energy.png"; sourceTree = "<group>"; };
+		0673A009DDDC1237B4B0EF89 /* MetalFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalFrame.swift; sourceTree = "<group>"; };
+		08F2A65A0C876879F09F6D84 /* PowderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowderApp.swift; sourceTree = "<group>"; };
+		0C8776CFD7F5BC03BC959DA8 /* Specimen-wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Specimen-wood.png"; sourceTree = "<group>"; };
+		0FD0C5FD2B69B16B929B9713 /* AppleScenePlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleScenePlanner.swift; sourceTree = "<group>"; };
+		1520299E87CC8597D15C6E6F /* PowderCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PowderCore; path = Packages/PowderCore; sourceTree = SOURCE_ROOT; };
+		16619A0022F4A590CF32DB2A /* PowderIntelligence */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PowderIntelligence; path = Packages/PowderIntelligence; sourceTree = SOURCE_ROOT; };
+		1E418CCC72749BD0053F1567 /* MaterialPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialPresentation.swift; sourceTree = "<group>"; };
+		222BE950FECB68B5BA2BCC67 /* WorkspaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceView.swift; sourceTree = "<group>"; };
+		2454351FDE22DACA315D1B5D /* Specimen-gas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Specimen-gas.png"; sourceTree = "<group>"; };
+		264C8474E297779CB32EF763 /* MetalSimulationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalSimulationView.swift; sourceTree = "<group>"; };
+		298F3F9CEB7AF8D764054634 /* Specimen-powder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Specimen-powder.png"; sourceTree = "<group>"; };
+		2E473084AF4FD13496B1672F /* MaterialAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialAppearance.swift; sourceTree = "<group>"; };
+		30D74E4992374768DC1D0D67 /* Specimen-oil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Specimen-oil.png"; sourceTree = "<group>"; };
+		37C50316453B8CB73D9FB159 /* Specimen-water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Specimen-water.png"; sourceTree = "<group>"; };
+		3BA803500C30708688EF0FE0 /* SimulationCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationCanvas.swift; sourceTree = "<group>"; };
+		46B7E20D4BF266C16D393E45 /* Specimen-ice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Specimen-ice.png"; sourceTree = "<group>"; };
+		4A88EFD64085D7151F1643A1 /* Specimen-flame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Specimen-flame.png"; sourceTree = "<group>"; };
+		4BF0C5606938709ED1F84397 /* Specimen-glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Specimen-glass.png"; sourceTree = "<group>"; };
+		598B652FADB27DA61A96DA7B /* PowderEngine */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PowderEngine; path = Packages/PowderEngine; sourceTree = SOURCE_ROOT; };
+		5B08124BE740C9AB5E8E9393 /* MetalParticlePipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalParticlePipeline.swift; sourceTree = "<group>"; };
+		61BE18F63D2C6A5CC1451BA3 /* ContextPanels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextPanels.swift; sourceTree = "<group>"; };
+		80286CD3EBC9402914EDB0B4 /* LICENSE */ = {isa = PBXFileReference; path = LICENSE; sourceTree = "<group>"; };
+		8B3E5095935A8EF344E17A25 /* PowderMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowderMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C680B9D101092BC337594EA /* StudioScenes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioScenes.swift; sourceTree = "<group>"; };
+		8C829548875B92613B5EAB70 /* Specimen-acid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Specimen-acid.png"; sourceTree = "<group>"; };
+		8FAD68B94478240864E7D3B8 /* SceneIntelligence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneIntelligence.swift; sourceTree = "<group>"; };
+		8FB143F2ED903769A49A4450 /* Specimen-steam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Specimen-steam.png"; sourceTree = "<group>"; };
+		9288C00AD6F2B171A8FDD21B /* Specimen-generic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Specimen-generic.png"; sourceTree = "<group>"; };
+		92B931C2CB4E0047A56D94DD /* Specimen-nuclear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Specimen-nuclear.png"; sourceTree = "<group>"; };
+		9E806C8C333BFBB3CECCBF22 /* MaterialPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialPalette.swift; sourceTree = "<group>"; };
+		9EAE89F0B43E4D861935317C /* CurrentBrushSwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentBrushSwatch.swift; sourceTree = "<group>"; };
+		A0FE56BED463271F943AD0C0 /* Specimen-metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Specimen-metal.png"; sourceTree = "<group>"; };
+		A859CCC34E2393AA13826B18 /* PowderPhone.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PowderPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C377C97A97129F7E01CF38ED /* Specimen-lava.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Specimen-lava.png"; sourceTree = "<group>"; };
+		CA2A62F590E27824D648BF94 /* ParticleShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ParticleShaders.metal; sourceTree = "<group>"; };
+		CB730A2543A81D5722BF4385 /* PowderTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowderTheme.swift; sourceTree = "<group>"; };
+		CBB746DBA400FC8FA7725EBF /* MaterialSwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialSwatch.swift; sourceTree = "<group>"; };
+		D4E811DB8689B6AC1E7594CA /* ScenePromptBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenePromptBar.swift; sourceTree = "<group>"; };
+		DAFDAC664332530AFA32564D /* PlaygroundSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundSession.swift; sourceTree = "<group>"; };
+		E35E47A9AF46F11EDAA07CAF /* Specimen-organic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Specimen-organic.png"; sourceTree = "<group>"; };
+		E48131CC22195B6B98E7459D /* CloudCredentialStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudCredentialStore.swift; sourceTree = "<group>"; };
+		EE2C29F967BD8D8E37B1615C /* Specimen-stone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Specimen-stone.png"; sourceTree = "<group>"; };
+		F8F8F51DBD2AE3B2446D0A81 /* AppleSceneLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSceneLayout.swift; sourceTree = "<group>"; };
+		FB168AE567EC0218738B1032 /* THIRD_PARTY_NOTICES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = THIRD_PARTY_NOTICES.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		513B7DEF94D5E7C021B6E640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BF2BD590A01723F3EDC8DE /* PowderCore in Frameworks */,
+				F523A4F0458564863062AD4A /* PowderIntelligence in Frameworks */,
+				282B79F7A3FBCACC13140930 /* PowderEngine in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798F0AB932EB5969E63A7DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196F6C8A4E1B7A61D8AD1273 /* PowderCore in Frameworks */,
+				36B8DB50210D4AB912355F05 /* PowderIntelligence in Frameworks */,
+				68399877EDC05469E8545103 /* PowderEngine in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A0801A93502FFC2B37C26BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F73A604DF84315A004794714 /* Specimens */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		16DD43398F34B401E65B146D = {
+			isa = PBXGroup;
+			children = (
+				80286CD3EBC9402914EDB0B4 /* LICENSE */,
+				FB168AE567EC0218738B1032 /* THIRD_PARTY_NOTICES.md */,
+				965B2583BB4AA3CFD0C90B2F /* App */,
+				A5B0FA935ABC8AEB6C6DE763 /* Packages */,
+				FCD1FACAED0C92C58ADE2043 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A06C5AE7B5415CF74ED5950 /* Intelligence */ = {
+			isa = PBXGroup;
+			children = (
+				F8F8F51DBD2AE3B2446D0A81 /* AppleSceneLayout.swift */,
+				0FD0C5FD2B69B16B929B9713 /* AppleScenePlanner.swift */,
+				E48131CC22195B6B98E7459D /* CloudCredentialStore.swift */,
+				8FAD68B94478240864E7D3B8 /* SceneIntelligence.swift */,
+				D4E811DB8689B6AC1E7594CA /* ScenePromptBar.swift */,
+			);
+			path = Intelligence;
+			sourceTree = "<group>";
+		};
+		965B2583BB4AA3CFD0C90B2F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9EAE89F0B43E4D861935317C /* CurrentBrushSwatch.swift */,
+				9E806C8C333BFBB3CECCBF22 /* MaterialPalette.swift */,
+				DAFDAC664332530AFA32564D /* PlaygroundSession.swift */,
+				08F2A65A0C876879F09F6D84 /* PowderApp.swift */,
+				3BA803500C30708688EF0FE0 /* SimulationCanvas.swift */,
+				8C680B9D101092BC337594EA /* StudioScenes.swift */,
+				222BE950FECB68B5BA2BCC67 /* WorkspaceView.swift */,
+				EC5C3F2BB2844123C4EFDB11 /* Design */,
+				1A06C5AE7B5415CF74ED5950 /* Intelligence */,
+				E6E49D52E5A80BB8149F0F28 /* Rendering */,
+				0A0801A93502FFC2B37C26BF /* Resources */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A5B0FA935ABC8AEB6C6DE763 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				1520299E87CC8597D15C6E6F /* PowderCore */,
+				598B652FADB27DA61A96DA7B /* PowderEngine */,
+				16619A0022F4A590CF32DB2A /* PowderIntelligence */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		E6E49D52E5A80BB8149F0F28 /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				2E473084AF4FD13496B1672F /* MaterialAppearance.swift */,
+				CBB746DBA400FC8FA7725EBF /* MaterialSwatch.swift */,
+				0673A009DDDC1237B4B0EF89 /* MetalFrame.swift */,
+				5B08124BE740C9AB5E8E9393 /* MetalParticlePipeline.swift */,
+				264C8474E297779CB32EF763 /* MetalSimulationView.swift */,
+				CA2A62F590E27824D648BF94 /* ParticleShaders.metal */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+		EC5C3F2BB2844123C4EFDB11 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				61BE18F63D2C6A5CC1451BA3 /* ContextPanels.swift */,
+				1E418CCC72749BD0053F1567 /* MaterialPresentation.swift */,
+				CB730A2543A81D5722BF4385 /* PowderTheme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		F73A604DF84315A004794714 /* Specimens */ = {
+			isa = PBXGroup;
+			children = (
+				8C829548875B92613B5EAB70 /* Specimen-acid.png */,
+				0570E2E6DC3FD2F623E37027 /* Specimen-energy.png */,
+				4A88EFD64085D7151F1643A1 /* Specimen-flame.png */,
+				2454351FDE22DACA315D1B5D /* Specimen-gas.png */,
+				9288C00AD6F2B171A8FDD21B /* Specimen-generic.png */,
+				4BF0C5606938709ED1F84397 /* Specimen-glass.png */,
+				46B7E20D4BF266C16D393E45 /* Specimen-ice.png */,
+				C377C97A97129F7E01CF38ED /* Specimen-lava.png */,
+				A0FE56BED463271F943AD0C0 /* Specimen-metal.png */,
+				92B931C2CB4E0047A56D94DD /* Specimen-nuclear.png */,
+				30D74E4992374768DC1D0D67 /* Specimen-oil.png */,
+				E35E47A9AF46F11EDAA07CAF /* Specimen-organic.png */,
+				298F3F9CEB7AF8D764054634 /* Specimen-powder.png */,
+				8FB143F2ED903769A49A4450 /* Specimen-steam.png */,
+				EE2C29F967BD8D8E37B1615C /* Specimen-stone.png */,
+				37C50316453B8CB73D9FB159 /* Specimen-water.png */,
+				0C8776CFD7F5BC03BC959DA8 /* Specimen-wood.png */,
+			);
+			path = Specimens;
+			sourceTree = "<group>";
+		};
+		FCD1FACAED0C92C58ADE2043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B3E5095935A8EF344E17A25 /* PowderMac.app */,
+				A859CCC34E2393AA13826B18 /* PowderPhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E14626881C84C629AE5CD9F /* PowderMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C6E6AE0B5BA8B341DBF9DD /* Build configuration list for PBXNativeTarget "PowderMac" */;
+			buildPhases = (
+				0AACF34847D9848EA184C7F6 /* Sources */,
+				AB7FD7E45BEE0B507AF872DE /* Resources */,
+				798F0AB932EB5969E63A7DB6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PowderMac;
+			packageProductDependencies = (
+				D485B0887BE7AB5C2AA7C8FE /* PowderCore */,
+				680CC92BBAA4F714671D112B /* PowderIntelligence */,
+				589524B657F5E202A1F6AF2F /* PowderEngine */,
+			);
+			productName = PowderMac;
+			productReference = 8B3E5095935A8EF344E17A25 /* PowderMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFFDB01441D6458EB122B078 /* PowderPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C954AA7061F3D01861EB475 /* Build configuration list for PBXNativeTarget "PowderPhone" */;
+			buildPhases = (
+				7D7CFE7FFB46A2F55510159C /* Sources */,
+				67C1DDB1ED087875E0BBC470 /* Resources */,
+				513B7DEF94D5E7C021B6E640 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PowderPhone;
+			packageProductDependencies = (
+				B9145293A828437BCA9C8D11 /* PowderCore */,
+				12EDD4D02567E7C9AC31488A /* PowderIntelligence */,
+				21B8CB4391CAC7B99B694407 /* PowderEngine */,
+			);
+			productName = PowderPhone;
+			productReference = A859CCC34E2393AA13826B18 /* PowderPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C85339DD8D30E82E66CCAFAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7E14626881C84C629AE5CD9F = {
+						ProvisioningStyle = Automatic;
+					};
+					CFFDB01441D6458EB122B078 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2346797401F1176751BFBF94 /* Build configuration list for PBXProject "Powder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 16DD43398F34B401E65B146D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				772C20D0EFBE5049E3186DBA /* XCLocalSwiftPackageReference "Packages/PowderCore" */,
+				3C54B7B4E66B74E20A6F944E /* XCLocalSwiftPackageReference "Packages/PowderEngine" */,
+				107858C4023106FF3E43574E /* XCLocalSwiftPackageReference "Packages/PowderIntelligence" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FCD1FACAED0C92C58ADE2043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E14626881C84C629AE5CD9F /* PowderMac */,
+				CFFDB01441D6458EB122B078 /* PowderPhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67C1DDB1ED087875E0BBC470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854295398B86FDBA10BF580F /* LICENSE in Resources */,
+				9B2BD0AE783C121FE2B7CBDB /* Specimen-acid.png in Resources */,
+				190A2776A9EA7B951E9110EA /* Specimen-energy.png in Resources */,
+				741840E00750B8FFFDB20F49 /* Specimen-flame.png in Resources */,
+				C940B9EC3E67FD486361013A /* Specimen-gas.png in Resources */,
+				F5BB64713407525E114CDC3C /* Specimen-generic.png in Resources */,
+				82729A117B8F03C68B618E9D /* Specimen-glass.png in Resources */,
+				5CCF8B0FC0600D6EA49A20C9 /* Specimen-ice.png in Resources */,
+				16235AC70C42C45D13F73F01 /* Specimen-lava.png in Resources */,
+				96F149A6E62794F6C27A411B /* Specimen-metal.png in Resources */,
+				B61FFC2C716464D1264422FE /* Specimen-nuclear.png in Resources */,
+				FAB4BDE49934F4B79E6CD21D /* Specimen-oil.png in Resources */,
+				B0E93CCFF60658E294935DC4 /* Specimen-organic.png in Resources */,
+				55EE7E7F1B1F287869A552C8 /* Specimen-powder.png in Resources */,
+				B003C85F135B129A4964EF6A /* Specimen-steam.png in Resources */,
+				A688126F35700968D5D44E17 /* Specimen-stone.png in Resources */,
+				1572440F7F00C69CFFC28D36 /* Specimen-water.png in Resources */,
+				E71C0CB9CF645B3E5EE2A37C /* Specimen-wood.png in Resources */,
+				C5CEDC029070C258903B1293 /* THIRD_PARTY_NOTICES.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB7FD7E45BEE0B507AF872DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D683E6FC68AFF357F34B55 /* LICENSE in Resources */,
+				B6746170D43D0A07A076091F /* Specimen-acid.png in Resources */,
+				6563E5E26B7E1C0B0504673D /* Specimen-energy.png in Resources */,
+				9A2AB5FD75E65201332B0297 /* Specimen-flame.png in Resources */,
+				6737871864172853C05205F8 /* Specimen-gas.png in Resources */,
+				575B32909F20E2F2C2497D6C /* Specimen-generic.png in Resources */,
+				73671060BCB7C57392EF2191 /* Specimen-glass.png in Resources */,
+				14A370CC008EDB6EA211883B /* Specimen-ice.png in Resources */,
+				2EEE9C0A2BCC40A9DD3D4A7C /* Specimen-lava.png in Resources */,
+				A6012C2E337361FCE859AB64 /* Specimen-metal.png in Resources */,
+				92866F7286E8AE3D50C474B9 /* Specimen-nuclear.png in Resources */,
+				45F3A1617AEF77155D2825E5 /* Specimen-oil.png in Resources */,
+				3543BEA69F38324512E0C0C4 /* Specimen-organic.png in Resources */,
+				7B90181E2281BBBF2A4522C6 /* Specimen-powder.png in Resources */,
+				2EBAB33738807CCB085846E7 /* Specimen-steam.png in Resources */,
+				737AAB271A2B57F155554DF7 /* Specimen-stone.png in Resources */,
+				5265EF20FA91C96868B20EEF /* Specimen-water.png in Resources */,
+				8FADA2BA9DB0F342605EDCCD /* Specimen-wood.png in Resources */,
+				CADF03AA82FBCC34B0ED00F4 /* THIRD_PARTY_NOTICES.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AACF34847D9848EA184C7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7976BAEAD8BE1D05A6BB7FE6 /* AppleSceneLayout.swift in Sources */,
+				2FC2417B2DC9599E7E67222A /* AppleScenePlanner.swift in Sources */,
+				9ABB85843924E74DD3D25CC3 /* CloudCredentialStore.swift in Sources */,
+				968339A5E5A15FBE64A8925B /* ContextPanels.swift in Sources */,
+				A2382A29DC6B5B7D49246C67 /* CurrentBrushSwatch.swift in Sources */,
+				03490139B0A2B8675EDBCEE7 /* MaterialAppearance.swift in Sources */,
+				1756460E4027F457E2FE799E /* MaterialPalette.swift in Sources */,
+				B33E94FF837892E422E9C76A /* MaterialPresentation.swift in Sources */,
+				7F4BB227814E6A7FA2A943AF /* MaterialSwatch.swift in Sources */,
+				F060A578799F97C1994BA62F /* MetalFrame.swift in Sources */,
+				A4B993BEFE29E4454C23F535 /* MetalParticlePipeline.swift in Sources */,
+				3D774DA71B386FB5F517522D /* MetalSimulationView.swift in Sources */,
+				61CCEE50664C86E1EB64D118 /* ParticleShaders.metal in Sources */,
+				2004D6D57A80FDF9CBC8B2F3 /* PlaygroundSession.swift in Sources */,
+				E4C1A4E1301E55E3A609AE1F /* PowderApp.swift in Sources */,
+				4876C6C4BF3A6D93D46F00B1 /* PowderTheme.swift in Sources */,
+				D685556F6B6E75A256377161 /* SceneIntelligence.swift in Sources */,
+				7A4F82D99ACE55A2FBC39B9A /* ScenePromptBar.swift in Sources */,
+				1A21EF5F3C50D73EC24DA690 /* SimulationCanvas.swift in Sources */,
+				78D15AD49BCA5398408C7F1C /* StudioScenes.swift in Sources */,
+				5BC3D5E0CA1D6F6DE3C33F36 /* WorkspaceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7CFE7FFB46A2F55510159C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F837FFE69D2596D9C57F6F5 /* AppleSceneLayout.swift in Sources */,
+				850C3B59636B28BB079385D4 /* AppleScenePlanner.swift in Sources */,
+				E3F574245578837CE92E4728 /* CloudCredentialStore.swift in Sources */,
+				0C86E0F1C7902E54A0BC374A /* ContextPanels.swift in Sources */,
+				E1DC272856CE8F7B81FBDEF5 /* CurrentBrushSwatch.swift in Sources */,
+				06D2217E73CE108C71DB5663 /* MaterialAppearance.swift in Sources */,
+				BA81AE6878464DA0C7BD9221 /* MaterialPalette.swift in Sources */,
+				1D86A524546BB64D34D3B0F8 /* MaterialPresentation.swift in Sources */,
+				8DE5C6932F0686A802534395 /* MaterialSwatch.swift in Sources */,
+				53B11B9B3CD7D41754880797 /* MetalFrame.swift in Sources */,
+				FFF728D8EDCB7FF867893EEA /* MetalParticlePipeline.swift in Sources */,
+				21ECFEE7D99555543488E783 /* MetalSimulationView.swift in Sources */,
+				49A468BB725A92103EB27A48 /* ParticleShaders.metal in Sources */,
+				6D767601C98221940B5A8B96 /* PlaygroundSession.swift in Sources */,
+				7EB3CE97B1AEA3926B9CBB52 /* PowderApp.swift in Sources */,
+				44FCA16EBE625D05A9B56390 /* PowderTheme.swift in Sources */,
+				5F56098972FAB47A202B5C85 /* SceneIntelligence.swift in Sources */,
+				66C15C25EE217B2F4D91E383 /* ScenePromptBar.swift in Sources */,
+				330D7FB4C9D65CEC86331272 /* SimulationCanvas.swift in Sources */,
+				1E855E7BCBE7276465A39ADC /* StudioScenes.swift in Sources */,
+				C159E0E658F2376E6471AC16 /* WorkspaceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		449CC1FFD96AB3450C734AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "arm64 x86_64";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				INFOPLIST_FILE = "Config/Mac-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.simulation-games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Powder native prototype";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.utkarsh.powder.mac;
+				PRODUCT_NAME = Powder;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5C4BE2C36EDB2B24783F2D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 4;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.4.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		68491E56E66C5B4E7AA3120E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "arm64 x86_64";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				INFOPLIST_FILE = "Config/Mac-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.simulation-games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Powder native prototype";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.utkarsh.powder.mac;
+				PRODUCT_NAME = Powder;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7FCC511E3E323E6AE7497EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Config/iOS-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.utkarsh.powder.ios;
+				PRODUCT_NAME = Powder;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1B8F38954BB59278935591C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Config/iOS-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.utkarsh.powder.ios;
+				PRODUCT_NAME = Powder;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E99B612D7CD5D2BF84511196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 4;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.4.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C954AA7061F3D01861EB475 /* Build configuration list for PBXNativeTarget "PowderPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B8F38954BB59278935591C /* Debug */,
+				7FCC511E3E323E6AE7497EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2346797401F1176751BFBF94 /* Build configuration list for PBXProject "Powder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4BE2C36EDB2B24783F2D0B /* Debug */,
+				E99B612D7CD5D2BF84511196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0C6E6AE0B5BA8B341DBF9DD /* Build configuration list for PBXNativeTarget "PowderMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68491E56E66C5B4E7AA3120E /* Debug */,
+				449CC1FFD96AB3450C734AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		107858C4023106FF3E43574E /* XCLocalSwiftPackageReference "Packages/PowderIntelligence" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/PowderIntelligence;
+		};
+		3C54B7B4E66B74E20A6F944E /* XCLocalSwiftPackageReference "Packages/PowderEngine" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/PowderEngine;
+		};
+		772C20D0EFBE5049E3186DBA /* XCLocalSwiftPackageReference "Packages/PowderCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/PowderCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		12EDD4D02567E7C9AC31488A /* PowderIntelligence */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PowderIntelligence;
+		};
+		21B8CB4391CAC7B99B694407 /* PowderEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PowderEngine;
+		};
+		589524B657F5E202A1F6AF2F /* PowderEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PowderEngine;
+		};
+		680CC92BBAA4F714671D112B /* PowderIntelligence */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PowderIntelligence;
+		};
+		B9145293A828437BCA9C8D11 /* PowderCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PowderCore;
+		};
+		D485B0887BE7AB5C2AA7C8FE /* PowderCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PowderCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C85339DD8D30E82E66CCAFAE /* Project object */;
+}

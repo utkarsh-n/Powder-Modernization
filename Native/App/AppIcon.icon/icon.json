@@ -1,0 +1,37 @@
+{
+  "fill": {
+    "solid": "srgb:0.075,0.105,0.145,1.0"
+  },
+  "groups": [
+    {
+      "name": "Chamber",
+      "layers": [
+        {
+          "name": "Powder chamber",
+          "image-name": "PowderChamber.png",
+          "position": {
+            "scale": 0.8165869218500797,
+            "translation-in-points": [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.15
+      },
+      "specular": false,
+      "translucency": {
+        "enabled": false,
+        "value": 0
+      }
+    }
+  ],
+  "supported-platforms": {
+    "squares": [
+      "macOS"
+    ]
+  }
+}

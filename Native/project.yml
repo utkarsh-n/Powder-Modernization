@@ -1,0 +1,81 @@
+name: Powder
+options:
+  bundleIdPrefix: dev.utkarsh
+  deploymentTarget:
+    macOS: '14.0'
+packages:
+  PowderCore:
+    path: Packages/PowderCore
+  PowderIntelligence:
+    path: Packages/PowderIntelligence
+  PowderEngine:
+    path: Packages/PowderEngine
+settings:
+  base:
+    SWIFT_VERSION: '6.0'
+    MARKETING_VERSION: '0.6.2'
+    CURRENT_PROJECT_VERSION: '10'
+    GENERATE_INFOPLIST_FILE: YES
+    CODE_SIGN_STYLE: Automatic
+    ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: ''
+targets:
+  PowderMac:
+    type: application
+    platform: macOS
+    sources:
+      - App
+      - path: LICENSE
+        buildPhase: resources
+      - path: THIRD_PARTY_NOTICES.md
+        buildPhase: resources
+    dependencies:
+      - package: PowderCore
+      - package: PowderIntelligence
+      - package: PowderEngine
+    settings:
+      base:
+        PRODUCT_NAME: Powder
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        PRODUCT_BUNDLE_IDENTIFIER: dev.utkarsh.powder.mac
+        ARCHS: 'arm64 x86_64'
+        ONLY_ACTIVE_ARCH: NO
+        ENABLE_APP_SANDBOX: YES
+        ENABLE_USER_SELECTED_FILES: readwrite
+        ENABLE_OUTGOING_NETWORK_CONNECTIONS: YES
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.simulation-games
+        INFOPLIST_KEY_NSHumanReadableCopyright: 'Powder native prototype'
+    info:
+      path: Config/Mac-Info.plist
+      properties:
+        CFBundleDisplayName: Powder
+        UTExportedTypeDeclarations:
+          - UTTypeIdentifier: dev.utkarsh.powder.document
+            UTTypeDescription: Powder Experiment
+            UTTypeConformsTo: [public.json]
+            UTTypeTagSpecification:
+              public.filename-extension: powderlab
+        CFBundleDocumentTypes:
+          - CFBundleTypeName: Powder Experiment
+            CFBundleTypeRole: Editor
+            LSHandlerRank: Owner
+            LSItemContentTypes: [dev.utkarsh.powder.document]
+  PowderMacTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources: [Tests]
+    dependencies:
+      - target: PowderMac
+      - package: PowderEngine
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.utkarsh.powder.tests
+        TEST_HOST: '$(BUILT_PRODUCTS_DIR)/Powder.app/Contents/MacOS/Powder'
+        BUNDLE_LOADER: '$(TEST_HOST)'
+schemes:
+  PowderMac:
+    build:
+      targets:
+        PowderMac: all
+    test:
+      targets:
+        - PowderMacTests

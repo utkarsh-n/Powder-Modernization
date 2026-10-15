@@ -1,0 +1,20 @@
+{
+  "upstream": "https://github.com/The-Powder-Toy/The-Powder-Toy",
+  "tag": "v100.1.400",
+  "commit": "d768aeb89acad986bd252d7e904bf44bb374545f",
+  "archiveSHA256": "75cd971e1b2d6789f9e35b75926b76d037a564ad9291fa852ad9996c8ac40c96",
+  "vendoredRoot": "Sources/CBridge/Upstream",
+  "modifiedUpstreamFiles": [
+    "client/GameSave.cpp",
+    "client/GameSave.h",
+    "graphics/Graphics.cpp",
+    "simulation/Simulation.cpp",
+    "simulation/Simulation.h",
+    "simulation/elements/O2.cpp"
+  ],
+  "jsoncpp": {
+    "version": "1.9.6",
+    "archiveSHA256": "f93b6dd7ce796b13d02c108bc9f79812245a82e577581c4c9aabe57075c90ea2"
+  },
+  "tagObject": "c8be5165b7289706e17473bcfb38de112e78f140"
+}
